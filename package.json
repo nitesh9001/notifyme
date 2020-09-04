@@ -1,5 +1,5 @@
 {
-  "name": "notifyme",
+  "name": "notification-bar",
   "version": "1.0.0",
   "description": "A notification library",
   "author": "nitesh9001",
@@ -49,5 +49,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
 }
