@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styles from './styles.module.css'
 
-export class ExampleComponent extends Component {
+export class Notification extends Component {
   constructor(props) {
     super(props)
     this.state = {

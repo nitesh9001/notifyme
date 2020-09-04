@@ -1,7 +1,7 @@
-// import  ExampleComponent  from '.'
+// import  Notification  from '.'
 
-// describe('ExampleComponent', () => {
+// describe('Notification', () => {
 //   it('is truthy', () => {
-//     expect(ExampleComponent).toBeTruthy()
+//     expect(Notification).toBeTruthy()
 //   })
 // })

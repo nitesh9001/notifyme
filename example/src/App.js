@@ -1,8 +1,9 @@
 import React from 'react'
-import { ExampleComponent } from 'notifyme'
+import { Notification } from 'notifyme'
 import 'notifyme/dist/index.css'
 
  
+
 var props = {
   title:"hello nbsu",
   type:"Success",
@@ -11,7 +12,7 @@ var props = {
 }
 const App = () => {
   return( <div>
-   <ExampleComponent {...props} />
+   <Notification {...props} />
   hdfvvdu
 
   </div>
