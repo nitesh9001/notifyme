@@ -16,7 +16,7 @@ npm install --save @reactui2020/notification-bar
 import React, { Component } from 'react'
 //required to import
 
-import Notification from '@reactui2020/notification-bar
+import {Notification} from '@reactui2020/notification-bar
 import '@reactui2020/notification-bar/dist/index.css'
 
 
