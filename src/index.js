@@ -57,10 +57,10 @@ export class Notification extends Component {
             <div
               className={styles.span}
               id='bar'
-              // style={{
-              // background: `${this.state.color}`,
-              // width: `${this.state.width}px`
-              // }}
+              style={{
+                background: `${this.state.color}`,
+                width: `${this.state.width}px`
+              }}
             />
           </div>
           <div
@@ -68,10 +68,7 @@ export class Notification extends Component {
             style={{ background: `${this.state.color}` }}
           >
             <div className={styles.context_icon}>
-              <img
-                src={require(`../src/Icons/${this.state.type}.svg`)}
-                alt='W'
-              />
+              <img src={require(`./${this.state.type}.svg`)} alt='W' />
             </div>
             <p className={styles.title_of_noti}>{this.props.title}</p>
             <div className={styles.context_icon}>
